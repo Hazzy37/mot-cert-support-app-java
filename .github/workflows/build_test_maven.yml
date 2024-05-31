@@ -14,6 +14,7 @@ jobs:
           java-version: '18'
           distribution: 'temurin'
       - name: Build project and run unit and API checks
+        uses: 'node20'
         run: mvn --batch-mode package
       - name: Run E2E checks
         run: |
