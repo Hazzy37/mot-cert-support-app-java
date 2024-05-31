@@ -49,7 +49,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <excludes>
-                        <exclude>**/LoginTest.java</exclude>
+                        <exclude>**/LoginTest.*</exclude>
                     </excludes>
                 </configuration>
             </plugin>
