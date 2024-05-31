@@ -24,8 +24,9 @@ public class LoginTest {
         WebDriver driver = new ChromeDriver(options);
 
 
-        driver.get("http://localhost:8080");
         /*
+        driver.get("http://localhost:8080");
+
         driver.findElement(By.name("email")).sendKeys("admin@test.com");
         driver.findElement(By.name("password")).sendKeys("password123");
         driver.findElement(By.cssSelector("button")).click();
