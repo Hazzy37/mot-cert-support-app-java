@@ -49,7 +49,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <excludes>
-                        <exclude>**/E2E/**/**.java</exclude>
+                        <exclude>**/e2e/**/**.java</exclude>
                     </excludes>
                 </configuration>
             </plugin>
@@ -155,7 +155,7 @@
             <artifactId>selenium-java</artifactId>
             <version>4.21.0</version>
         </dependency>
-        <!-- Webdriver Manager -->
+        <!-- WebDriver Manager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
