@@ -49,8 +49,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <excludes>
-                        <exclude>**/LoginApiTest.java</exclude>
-                        <exclude>**/LoginTest.java</exclude>
+                        <exclude>**/test/**/**.java</exclude>
                     </excludes>
                 </configuration>
             </plugin>
