@@ -49,7 +49,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <excludes>
-                        <exclude>**/LoginTest.*</exclude>
+                        <exclude>**/E2E/**</exclude>
                     </excludes>
                 </configuration>
             </plugin>
