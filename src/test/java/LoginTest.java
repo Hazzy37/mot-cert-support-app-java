@@ -23,8 +23,6 @@ public class LoginTest {
         options.addArguments("--headless");
         WebDriver driver = new ChromeDriver(options);
 
-
-        /*
         driver.get("http://localhost:8080");
 
         driver.findElement(By.name("email")).sendKeys("admin@test.com");
@@ -41,8 +39,6 @@ public class LoginTest {
         driver.close();
         driver.quit();
 
-         */
-
-        System.out.println("Aardvark : this is the login test");
+         System.out.println("Aardvark : this is the login test");
     }
 }
