@@ -98,7 +98,7 @@
         <dependency>
             <groupId>com.approvaltests</groupId>
             <artifactId>approvaltests</artifactId>
-            <version>23.1.0</version>
+            <version>24.2.0</version>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -145,7 +145,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.20.0</version>
+            <version>4.21.0</version>
         </dependency>
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
@@ -153,6 +153,11 @@
             <version>5.8.0</version>
         </dependency>
     </dependencies>
-
-
+    <repositories>
+        <repository>
+            <id>maven_central</id>
+            <name>Maven Central</name>
+            <url>https://repo.maven.apache.org/maven2/</url>
+        </repository>
+    </repositories>
 </project>
