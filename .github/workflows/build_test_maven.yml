@@ -21,12 +21,10 @@ jobs:
           sleep 20
           mvn test -Dtest=LoginTest
       - name: Publish Test Results
-        uses: phoenix-actions/test-reporting@v8
-        id: test-report
+        uses: EnricoMi/publish-unit-test-result-action/composite@v2
+        if: always()
         with:
-          artifact: test-results              # artifact name
-          name: JEST Tests                    # Name of the check run which will be created
-          path: target/surefire-reports/*.xml # Path to test results (inside artifact .zip)
-          reporter: jest-junit                # Format of test results
+            files: |
+              target/surefire-reports/*.xml
 
 
