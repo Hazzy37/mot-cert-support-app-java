@@ -16,5 +16,5 @@ test('My First test', async t => {
         .typeText(inputEmail, 'admin@test.com') //input email address
         .typeText(inputPassword, 'password123') //input password
         .click('button') // Click the sign in button
-        .expect(h1Header.innerText).eql('Welcome to Timesheet manager'); Check header is on the landing page
+        .expect(h1Header.innerText).eql('Welcome to Timesheet manager'); //Check header is on the landing page
 });

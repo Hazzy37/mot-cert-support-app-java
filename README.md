@@ -47,4 +47,44 @@ git commit -m "Added in Github Actions"
 git push origin trunk
 ```
 
+# Test Cafe Area
+
+As a trial in one of the exercises we installed Test Cafe. 
+There has been a Folder created in the src\test folder with a trial test in it. 
+NOTE : Just ignore the TestCafeExample.js file. 
+
+To install Test Cafe its best to use npm which is a Node.js pacakge manager
+To check if you have node.js available, in a command prompt type npm --version
+You should have a version number returned. 
+If not....
+
+Go to the following web page:
+https://nodejs.org/en/download/prebuilt-installer/current
+
+And download the installer and open. 
+
+OR......
+Access this web page:
+https://nodejs.org/en/download/package-manager/current
+
+Then run the following commands listed on the page
+
+---------
+
+Once done... run the following to install Test Cafe
+
+```
+npm install -g testcafe
+```
+
+NOTE : project needs to be running. Simply run
+`java -jar target/mot-cert-support-app-java-*-exec.jar` to run the jar file.
+
+To run the test via Chrome run the following command to specify browser and which test to execute:
+NOTE : May need to specify file path for the .js file
+
+```
+testcafe chrome TestCafeTrial.js
+```
+
 
