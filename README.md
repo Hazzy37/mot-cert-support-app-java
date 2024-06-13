@@ -5,7 +5,7 @@ running application.
 
 ## Getting Started
 
-### Pre-Requisties 
+### Pre-Requisites 
 
 - Java 18
 - Maven 3.12.1 <release 18>
@@ -36,7 +36,7 @@ The config for Actions can be found in the following location:
 
 Workflow outputs can be found in the Actions section of GitHub repository
 
-# Github Actions
+# GitHub Actions
 
 To upload any changes to Git and trigger the process, using the following 3 commands:
 ```
