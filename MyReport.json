@@ -1,0 +1,29 @@
+{
+  "startTime": "2024-06-14T14:32:15.489Z",
+  "endTime": "2024-06-14T14:32:19.157Z",
+  "userAgents": [
+    "Chrome 125.0.0.0 / Sonoma 14"
+  ],
+  "passed": 1,
+  "total": 1,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "Getting Started",
+      "path": "/Users/hazzy/IdeaProjects/mot-cert-support-app-java/src/test/TestCafe/TestCafeTrial.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "My First test",
+          "meta": {},
+          "errs": [],
+          "durationMs": 1274,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

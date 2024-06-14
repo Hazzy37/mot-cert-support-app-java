@@ -87,4 +87,22 @@ NOTE : May need to specify file path for the .js file
 testcafe chrome TestCafeTrial.js
 ```
 
+# Adjusted Test Cafe For Reporting in JSON format
+Have added json reporting to testcafe
+
+To Install
+```
+npm install testcafe-reporter-json
+```
+
+To execute test and report to produce a json file
+
+```
+npm testcafe chrome src/test/TestCafe/TestCafeTrial.js --reporter json:MyReport.json
+```
+
+To execute test and report to report in the console
+```
+npm testcafe chrome src/test/TestCafe/TestCafeTrial.js --reporter json
+```
 
