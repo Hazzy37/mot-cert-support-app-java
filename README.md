@@ -13,7 +13,7 @@ running application.
 - Maven surefire plugin - 3.2.5
 - Maven failsafe plugin - 3.2.5
 
-#### My Repo Location
+#### My Example Repo Locations are here <--
 https://github.com/Hazzy37/mot-cert-support-app-java.git
 
 ## Building the project
